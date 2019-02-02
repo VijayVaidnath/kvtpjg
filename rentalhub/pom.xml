@@ -72,5 +72,8 @@
 
 <modules>
 	<module>rentalhub-config</module>
+	<module>rentalhub-persistence</module>
+	<module>rentalhub-services</module>
+	<module>rentalhub-web</module>
 </modules>
 </project>
