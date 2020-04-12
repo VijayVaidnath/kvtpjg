@@ -12,5 +12,6 @@
 	<groupId>com.kvtpj.rentalhub.web</groupId>
 	<artifactId>rentalhub-web</artifactId>
 	<packaging>war</packaging>
+	<description>API exposed to client as REST controllers</description>
 
 </project>

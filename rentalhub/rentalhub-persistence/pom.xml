@@ -10,6 +10,7 @@
 
 	<groupId>com.kvtpj.rentalhub.persistence</groupId>
 	<artifactId>rentalhub-persistence</artifactId>
+	<description>Persistence wrapper using spring data API</description>
 
 	<dependencies>
 		<dependency>
