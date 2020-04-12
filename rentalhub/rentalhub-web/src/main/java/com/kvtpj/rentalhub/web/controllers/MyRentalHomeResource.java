@@ -23,18 +23,21 @@ import lombok.extern.slf4j.Slf4j;
 public class MyRentalHomeResource {
 
 	@PostMapping("bookmyreservations/userId")
-	public void bookMyReservation(@RequestParam("userId") String userId) {
-
+	public void bookReservation(@RequestParam("userId") String userId) {
+		log.info("Creating a new reservation for {} ", userId);
+		log.info("Reservation completed for {} ", userId);
 	}
 
-	@GetMapping("getmyreservations/{reservationId}")
-	public void getMyReservation(@RequestParam("reservationId") String reservationId) {
-
+	@GetMapping("getmyreservations/{postalCode}")
+	public void getReservation(@RequestParam("postalCode") String postalCode) {
+		log.info("Find availability for {} ", postalCode);
+		log.info("Availability for {} has been sent out", postalCode);
 	}
 
 	@PatchMapping("bookmyreservations/{reservationId}")
-	public void updateMyReservation(@RequestParam("reservationId") String reservationId) {
-
+	public void updateReservation(@RequestParam("reservationId") String reservationId) {
+		log.info("Updating the existing reservation for {} ", reservationId);
+		log.info("Update for the existing reservation {} has been completed", reservationId);
 	}
 
 }

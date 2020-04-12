@@ -62,3 +62,12 @@ rentalhub/rentalhub-persistence/.project
 rentalhub/rentalhub-services/.project
 rentalhub/rentalhub-web/.project
 rentalhub/reantalhub-client/.settings/org.springframework.ide.eclipse.prefs
+rentalhub/.settings/org.eclipse.core.resources.prefs
+rentalhub/rentalhub-config/.factorypath
+rentalhub/rentalhub-config/.settings/org.eclipse.jdt.apt.core.prefs
+rentalhub/rentalhub-persistence/.factorypath
+rentalhub/rentalhub-persistence/.settings/org.eclipse.jdt.apt.core.prefs
+rentalhub/rentalhub-services/.factorypath
+rentalhub/rentalhub-services/.settings/org.eclipse.jdt.apt.core.prefs
+rentalhub/rentalhub-web/.factorypath
+rentalhub/rentalhub-web/.settings/org.eclipse.jdt.apt.core.prefs
