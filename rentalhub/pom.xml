@@ -22,15 +22,6 @@
 		<project.version>1.0-SNAPSHOT</project.version>
 	</properties>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
@@ -115,6 +106,5 @@
 		<module>rentalhub-persistence</module>
 		<module>rentalhub-services</module>
 		<module>rentalhub-web</module>
-		<module>reantalhub-client</module>
 	</modules>
 </project>

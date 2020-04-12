@@ -72,3 +72,14 @@ rentalhub/rentalhub-services/.settings/org.eclipse.jdt.apt.core.prefs
 rentalhub/rentalhub-web/.factorypath
 rentalhub/rentalhub-web/.settings/org.eclipse.jdt.apt.core.prefs
 *.json
+rentalhub/pom.xml
+rentalhub/rentalhub-services/.settings/org.eclipse.wst.validation.prefs
+rentalhub/rentalhub-services/.settings/org.eclipse.wst.common.component
+rentalhub/rentalhub-services/.settings/org.eclipse.wst.common.project.facet.core.xml
+rentalhub/rentalhub-persistence/.settings/org.eclipse.wst.validation.prefs
+rentalhub/rentalhub-persistence/.settings/org.eclipse.wst.common.project.facet.core.xml
+rentalhub/rentalhub-persistence/.settings/org.eclipse.wst.common.component
+rentalhub/rentalhub-config/.settings/org.eclipse.wst.common.project.facet.core.xml
+rentalhub/rentalhub-config/.settings/org.eclipse.wst.common.component
+rentalhub/rentalhub-config/.settings/org.eclipse.wst.validation.prefs
+rentalhub/rentalhub-web/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml

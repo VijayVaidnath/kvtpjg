@@ -56,5 +56,14 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.kvtpj.rentalhub.persistence</groupId>
+			<artifactId>rentalhub-persistence</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+
 	</dependencies>
 </project>

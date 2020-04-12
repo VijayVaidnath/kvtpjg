@@ -9,6 +9,15 @@
 		<version>${project.version}</version>
 	</parent>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
 	<groupId>com.kvtpj.rentalhub.web</groupId>
 	<artifactId>rentalhub-web</artifactId>
 	<packaging>war</packaging>
@@ -19,12 +28,20 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-tx</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>com.kvtpj.rentalhub.configuration</groupId>
+			<artifactId>rentalhub-config</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.kvtpj.rentalhub.services</groupId>
+			<artifactId>rentalhub-services</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 
 </project>
