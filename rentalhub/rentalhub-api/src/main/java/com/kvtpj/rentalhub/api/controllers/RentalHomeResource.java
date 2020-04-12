@@ -1,4 +1,4 @@
-package com.kvtpj.rentalhub.web.controllers;
+package com.kvtpj.rentalhub.api.controllers;
 
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 @RequestMapping("rentalhub/api")
 @Transactional(rollbackFor = Exception.class)
-public class MyRentalHomeResource {
+public class RentalHomeResource {
 
 	@PostMapping("bookmyreservations/userId")
 	public void bookReservation(@RequestParam("userId") String userId) {

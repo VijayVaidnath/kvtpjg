@@ -105,6 +105,7 @@
 		<module>rentalhub-config</module>
 		<module>rentalhub-persistence</module>
 		<module>rentalhub-services</module>
+		<module>rentalhub-api</module>
 		<module>rentalhub-web</module>
 	</modules>
 </project>
