@@ -1,2 +1,2 @@
-# rentalhub
-# initial set added more updates are coming
+# Rentalhub
+## A digital inovation for the people
