@@ -120,5 +120,6 @@
 		<module>rentalhub-persistence</module>
 		<module>rentalhub-services</module>
 		<module>rentalhub-web</module>
+		<module>reantalhub-client</module>
 	</modules>
 </project>

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kvtpj.rentalhub.services.model;
 
 /**

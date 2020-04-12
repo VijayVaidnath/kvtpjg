@@ -5,6 +5,6 @@
     <artifactId>rentalhub</artifactId>
     <version>${project.version}</version>
   </parent>
-  <groupId>com.kvtpj.rentalhub.configuration</groupId>
-  <artifactId>rentalhub-config</artifactId>
+  <artifactId>reantalhub-client</artifactId>
+  <packaging>war</packaging>
 </project>
