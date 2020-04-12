@@ -24,19 +24,19 @@ public class MyRentalHomeResource {
 
 	@PostMapping("bookmyreservations/userId")
 	public void bookReservation(@RequestParam("userId") String userId) {
-		log.info("Creating a new reservation for {} ", userId);
-		log.info("Reservation completed for {} ", userId);
+		log.info("Creating a new reservation for {} user id", userId);
+		log.info("Reservation completed for {} user id", userId);
 	}
 
 	@GetMapping("getmyreservations/{postalCode}")
 	public void getReservation(@RequestParam("postalCode") String postalCode) {
-		log.info("Find availability for {} ", postalCode);
-		log.info("Availability for {} has been sent out", postalCode);
+		log.info("Find availability for {} postal code", postalCode);
+		log.info("Availability for postal code {} has been sent out", postalCode);
 	}
 
 	@PatchMapping("bookmyreservations/{reservationId}")
 	public void updateReservation(@RequestParam("reservationId") String reservationId) {
-		log.info("Updating the existing reservation for {} ", reservationId);
+		log.info("Updating the existing reservation for {} reservation id", reservationId);
 		log.info("Update for the existing reservation {} has been completed", reservationId);
 	}
 

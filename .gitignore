@@ -71,3 +71,4 @@ rentalhub/rentalhub-services/.factorypath
 rentalhub/rentalhub-services/.settings/org.eclipse.jdt.apt.core.prefs
 rentalhub/rentalhub-web/.factorypath
 rentalhub/rentalhub-web/.settings/org.eclipse.jdt.apt.core.prefs
+*.json
