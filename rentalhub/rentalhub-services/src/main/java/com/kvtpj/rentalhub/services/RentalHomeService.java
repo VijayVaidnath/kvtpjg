@@ -7,7 +7,7 @@ package com.kvtpj.rentalhub.services;
  * @author vijay
  *
  */
-public interface BookMyRentalHome {
+public interface RentalHomeService {
 
 	void book() throws Exception;
 

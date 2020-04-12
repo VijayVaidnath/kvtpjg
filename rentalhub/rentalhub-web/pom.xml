@@ -14,4 +14,11 @@
 	<packaging>war</packaging>
 	<description>API exposed to client as REST controllers</description>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+		</dependency>
+	</dependencies>
+
 </project>

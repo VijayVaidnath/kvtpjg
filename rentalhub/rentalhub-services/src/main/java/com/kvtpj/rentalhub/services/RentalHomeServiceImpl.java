@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  *
  */
 @Service
-public class BookMyRentalHomeImpl implements BookMyRentalHome {
+public class RentalHomeServiceImpl implements RentalHomeService {
 
 	/*
 	 * (non-Javadoc)
